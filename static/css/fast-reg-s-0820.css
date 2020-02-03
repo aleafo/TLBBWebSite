@@ -1,0 +1,91 @@
+@charset "utf-8";
+.list li .msg,
+.submit,
+.submit:hover,
+.submit_org,
+.submit_org:hover,
+.download,
+.download:hover,
+.open-mail,
+.open-mail:hover,
+.bag,
+.bag:hover,
+.phone-approve,
+.phone-approve:hover {background:url(http://i1.cy.com/xtl/cover/20170328/quick_reg.png) no-repeat;}
+body {font-family:Arial, '宋体', Helvetica, sans-serif; font-size:12px; color:#e5a842; line-height:22px;}
+/* global */
+#page {width:220px; overflow:hidden; /*background:#999;*/}
+#tabs {width:225px;height:27px; line-height:28px; text-align:center;}
+#tabs li {float:left; height:100%; width:71px; padding:0px 1px 1px 1px; border-right:1px solid #cccccc; border-bottom:1px solid #cccccc; }
+#tabs li a {display:block; width:100%; height:100%; background:#f1f1f1;  color:#898989;}
+#tabs li a.current { position:relative; background:#ffffff; height:28px; bottom:-1px;  color:#333231; }
+/*#tabs li.phone {width:73px;}
+#tabs li.phone a {background-position:-124px 0;}
+#tabs li.phone a:hover,
+#tabs li.phone a.current {background-position:-124px -29px;}
+#tabs li.mail {width:74px;}
+#tabs li.mail a {background-position:-197px 0;}
+#tabs li.mail a:hover,
+#tabs li.mail a.current {background-position:-197px -29px;}
+#tabs li.person {width:73px;}
+#tabs li.person a {background-position:-271px 0;}
+#tabs li.person a:hover,
+#tabs li.person a.current {background-position:-271px -29px;}
+*/
+.container {width:220px; height:312px;}
+.content {/*overflow:hidden;*/ display:none;}
+.list {padding-top:14px; position:relative; font-size:12px;}
+.list li {position:relative;width:100%;margin-bottom:10px;float:left;color:#333333;}
+.list li.checkimg{ padding-left:60px;}
+.list li .code { display: block; float: left; height: 30px; margin: 0 5px 0 0; width: 115px; }
+.list li .other { float: left; line-height: 29px; }
+.list li a {color: #e1aa5b;text-decoration:underline;}
+.list li a:hover {text-decoration:none;}
+.list li label {margin-right:7px; display:block; float:left; width:77px; height:24px; line-height:24px; text-align:right;}
+.list li .wrap {margin-right:10px; width:114px; height:24px; float:left;}
+.list li .wrap .input {float:left;display:block;width:106px;padding:0 3px;height:22px;color: #b0b0b0;font-size:12px;line-height:22px;border: #cccccc solid 1px;background:#f9f9f9;font-family:Arial, '宋体', Helvetica, sans-serif;overflow:hidden;}
+.list li .wrap .error-input {background: none;border: 1px solid #e5a842;}
+.list li .wrap .input-now {color:#333333;}
+.list li.center {text-align:center;}
+.list li .error {margin:0 auto; padding:0 5px; display:inline-block; *display:inline; zoom:1; height:20px; line-height:20px; text-align:center; color:#f56760; border:#f56760 solid 1px; background:none;}
+.list li .center {text-align:center;}
+.list li .margin {margin-left:80px;color: #ecbc5b;}
+.list li.margin-short {margin-bottom:0;}
+.list li .msg {margin-left:84px; display:block; width:114px; height:24px; text-align:center; line-height:24px; color:#3a86d4; cursor:pointer; background-position:0 -71px;}
+.list li .msg-wait {color:#b0b0b0; background-position:0 -97px;}
+.submit {margin:0 auto; display:block; width:119px; height:33px; background-position:0 0;}
+.submit:hover {background-position:0 -36px;}
+.submit_confirm{background-position: 0 -264px;}
+.submit_confirm:hover{background-position: 0 -300px;}
+.submit input {display:block; width:119px; height:33px; border:0 none; background:0 none; cursor:pointer;}
+.submit_org {margin:0 auto; display:block; width:119px; height:33px; background-position:-147px -161px;}
+.submit_org:hover {background-position:-267px -161px;}
+.succees-bg {padding-top:10px; /*width:195px;*/ margin:0 auto;}
+.success {width:195px; margin:0 auto 15px auto; padding-bottom:15px; border-bottom:#eb6964 dashed 1px; background:url(http://i1.cy.com/xtl/main/20161107/9c8_9d9709e8_ef0e_839d_ae86_b434ff062f94_1.png) no-repeat 20px 0;}
+.success-no {border-bottom:0 none;}
+.success h2 {margin-left:58px; color:#3e9901; font-size:14px; font-weight:bold; line-height:30px;}
+.success p {color:#f56760; font-size:12px; line-height:26px; text-align:center;}
+.success p.left{ text-align:left;}
+.succees-bg .text {width:195px; margin:0 auto 10px auto; text-indent:2em;}
+.succees-bg label { line-height:22px; vertical-align:middle;} 
+.succees-bg .cyplus{ padding-top:6px; line-height:20px; color:#e5a842; padding:0 8px; text-align:left}
+.succees-bg img{ display:block; width:120px; height:120px; margin:2px auto;}
+#input-copy,#cellphone {padding:0 2px; width:114px; height:22px; background:#f9f9f9; border:#cccccc solid 1px; color:#e5a842; font-size:12px; line-height:22px;}
+.succees-bg .right {text-align:right;}
+.succees-bg .right a {color:#3a86d4; text-decoration:underline;}
+.succees-bg .right a:hover {text-decoration:none;}
+.download {margin:15px auto 0 auto; display:block; width:147px; height:33px; background-position:-350px 0; text-indent:-99999px;}
+.download:hover {background-position:-350px -36px;}
+.download_tl {margin:15px auto 0 auto; display:block; width:147px; height:33px; background-position:0 -195px; text-indent:-99999px;}
+.download_tl:hover { background-position:-147px -195px;}
+.open-mail {margin:15px auto 0 auto; display:block; width:147px; height:33px; background-position:-124px -88px; text-indent:-99999px;}
+.open-mail:hover {background-position:-276px -88px;}
+.bag {margin:10px auto 0 auto; display:block; width:146px; height:33px; background-position:0 -126px; text-indent:-99999px;}
+.bag:hover {background-position:0 -161px;}
+.phone-approve {margin:15px auto 0 auto; display:block; width:147px; height:33px; background-position:-147px -126px; text-indent:-99999px;}
+.phone-approve:hover {background-position:-295px -126px;}
+.phone_tl {margin:15px auto 0 auto; display:block; width:146px; height:33px; background-position:-294px -195px; text-indent:-99999px;}
+.phone_tl:hover { background-position:-294px -229px;}
+.verfiy_title{padding: 10px 0 0; text-align: center; font-size: 12px;color: #FFA00A; font-weight: bold;}
+.succees-bg .changyoup{text-align: right;color: #ff0000;padding-right: 4px;}
+.succees-bg .changyoup a{color: #ff0000;font-size: 16px;font-weight: 700;}

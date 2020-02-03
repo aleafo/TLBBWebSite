@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* @import url(/logo/xtl_logo.css); */
+embed,iframe,img,li,object{vertical-align:top;}
+.hide{ display:none; }
+.hidden{ visibility:hidden; }
+.highzindex{ z-index:10; }
+/*body >*  { 
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    
+    filter: grayscale(100%);
+	
+    filter: gray;
+}*/
+body{ color:#505050; font:normal 14px/1.5 "Microsoft YaHei","微软雅黑"; background-color:#f0f4f9; background-position:center 55px; background-repeat:no-repeat;  }
+.page{ background: url(http://i0.cy.com/xtl/main/20190415/bg_subpage.jpg) no-repeat center top; /*background:url(http://i0.cy.com/xtl/main/20180408/bot_bg.jpg) no-repeat center bottom;
+background-image: none; background-color:#f0f4f9;*/}
+
+/*.download .page{background:url(http://i1.cy.com/xtl/cover/20170717/bottom_download.jpg) no-repeat center bottom;}
+.download{background-color: #eeeeee;}
+.event .page{background:url(http://i1.cy.com/xtl/cover/20170717/bottom_event.jpg) no-repeat center bottom;}
+.event{background-color: #eeeeee;}
+.video .page{background:url(http://i1.cy.com/xtl/cover/20170717/bottom_video.jpg) no-repeat center bottom;}
+.video{background-color: #eeeeee;}
+.news .page{background:url(http://i1.cy.com/xtl/cover/20170717/bottom_news.jpg) no-repeat center bottom;}
+.news{background-color: #eeeeee;}*/
+
+.wrap{ width:1000px; margin:0 auto; }
+.nav{ position:absolute; right:0; top:0; width:588px; }
+.nav dt{ position:absolute; right:0; top:-6px; z-index:34; width:100%; font:14px/40px "Microsoft YaHei","微软雅黑"; }
+.nav dt a{ float:left; width:87px;height: 27px;line-height: 27px; font-weight:bold; color:#a92722; text-align:center;cursor:pointer;margin: 26px 0 0 6px; }
+
+.nav dt a:hover{background: url(http://i0.cy.com/xtl/main/20181012/v_hover.png) no-repeat; color: #f3ebe9;}
+.nav dt a:hover em,.nav dt a.dark:hover em,.nav dt a.dark:hover{color: #6c0000;}
+/*.nav dt a.dark em{ color:#a92722;}*/
+.nav dd{ display:none; padding-top:60px; height:287px;/* background:url(http://i0.cy.com/xtl/main/20170717/nav_bg.png) no-repeat;*/}
+.nav dd p{ float:left; width:14%; }
+.nav dd p a{ display:block; color:#957b51; font-size:12px; line-height:2; text-align:center; }
+.nav dd p a:hover{ color:#b39057; }
+.header .nav_hover dt a{color:#fbdfac;}
+.nav span{color: #a92722;height: 27px;top: 20px;position: absolute;}
+.hjxd_link{position: absolute; width: 779px; height: 312px;}
+.hjxd_link span{position: absolute; width: 687px; height: 40px; top: 66px; left: 0px; color: #e5cb76; text-align: center; font-size: 26px; font-family :"Microsoft YaHei","微软雅黑";display: none;}
